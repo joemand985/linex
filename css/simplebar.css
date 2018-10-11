@@ -17,11 +17,11 @@
     padding: 5px 30px 5px 15px;
 }
 
-/* hide browser scrollbar on Webkit (Safari & Chrome) /
+/* hide browser scrollbar on Webkit (Safari & Chrome) */
 .simplebar-scroll-content::-webkit-scrollbar {
     display: none;
 }
-EDIT*/
+
 
 [data-simplebar-direction="horizontal"] .simplebar-scroll-content,
 .simplebar.horizontal .simplebar-scroll-content {
