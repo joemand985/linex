@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    // EDIT: IS SCRITP WORKING
+    console.log("main.js working")
     // Initialize scrollers.
     $('#linex-description').simplebar({ autoHide: false });
 

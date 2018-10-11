@@ -1,3 +1,7 @@
+//EDIT: IS SCRIPT WORKING
+console.log("simplebar.js working")
+
+
 ;(function (factory) {
     if (typeof module === 'object' && typeof module.exports === 'object') {
         factory(require('jquery'), window, document);
