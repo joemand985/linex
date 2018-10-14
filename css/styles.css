@@ -39,6 +39,7 @@ body {
     position: absolute;
     left: 0;
     bottom: -18px;
+
 }
 
 #linex-brand {
@@ -373,9 +374,12 @@ footer p {
     text-align: center;
     padding: 3px;
     margin: auto;
-    line-height: 0.1em;
+   /* line-height: 0.1em;*/
 }
 
+.highlights > h4 {
+    margin: 0;
+}
 .blue {
     background-image: linear-gradient(to right, #3FBBE7 , #2E4694);
     color: white;
@@ -383,14 +387,26 @@ footer p {
     margin: 5px;
 }
 
+.purple {
+    background-image: linear-gradient(to right, #E1007A, #6C3689);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .framed {
-    border: 3px solid #E2007A;
+    /*border: 3px solid #E2007A;*/
+    border-width: 1px;
+    border-style: solid;
+    border-color: ;
     text-align: center;
+    border-color: #E2007A;
 }
 
 .first-highlight {
     width: 80%;
     box-sizing: border-box;
+    border-width: 3px 1px 3px 3px;
 }
 
 .second-highlight {
@@ -399,7 +415,7 @@ footer p {
 
 .third-highlight {
     width: 95%;
-    overflow-wrap: break-word;
+    border-width: 1px 3px 3px 3px;
 }
 
 .linex-list {
@@ -414,6 +430,9 @@ h4 {
     font-weight: 900;
 }
 
+#brand-large-simplebars {
+    align-content: center;
+}
 
 /*right side*/
 #sandoz-logo {
@@ -428,9 +447,30 @@ h4 {
     bottom: 10px;
     width: 550px;
     height: 725px;
-    border: 1px solid #00457f;
+    /*border: 1px solid #00457f;*/
     text-align: center;
     color: #00467D;
+    font-size: ;
+}
+
+#main-first {
+    font-size: 90px;
+}
+
+#main-second {
+    font-size: 66px;
+}
+
+#main-third {
+    font-size: 60px;
+}
+
+#linex-package-large {
+    position: relative;
+    left: -70px;
+    top: 0;
+    margin: 20px;
+    width: 500px;
 }
 /*END OF NEW*/
 
