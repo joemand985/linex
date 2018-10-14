@@ -35,7 +35,7 @@ console.log("simplebar.js working")
 
         tempEl.remove();
 
-        return 100;
+        return 100; //100
     }
 
     var IS_WEBKIT = 'WebkitAppearance' in document.documentElement.style;
@@ -66,7 +66,7 @@ console.log("simplebar.js working")
 
     SimpleBar.DEFAULTS = {
         wrapContent: true,
-        autoHide: true,
+        autoHide: true, //f
         css: {
             container: 'simplebar',
             content: 'simplebar-content',
@@ -272,8 +272,8 @@ console.log("simplebar.js working")
             //Morao sam da izmenim zbog toga što sam dodao padding
             //this.$scrollContentEl.width(this.$el.width()+SCROLLBAR_WIDTH);
             if( navigator.userAgent.toLowerCase().indexOf('firefox') > -1 ){
-                this.$scrollContentEl.width(this.$el.width()+SCROLLBAR_WIDTH-128);
-                this.$scrollContentEl.height(this.$el.height()+SCROLLBAR_WIDTH);
+                this.$scrollContentEl.width(this.$el.width()+SCROLLBAR_WIDTH-128);//138
+                this.$scrollContentEl.height(this.$el.height()+SCROLLBAR_WIDTH);//bez +S..)
             }
             else{
                 this.$scrollContentEl.width(this.$el.width()+SCROLLBAR_WIDTH-155);

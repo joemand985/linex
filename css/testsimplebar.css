@@ -14,14 +14,13 @@
     top: 0;
     bottom: 0;
     -ms-overflow-style: none; /* hide browser scrollbar on IE10+ */
-    padding: 5px 30px 5px 15px; /*40px umesto 30*/
+    padding: 5px 40px 5px 15px;
 }
 
 /* hide browser scrollbar on Webkit (Safari & Chrome) */
 .simplebar-scroll-content::-webkit-scrollbar {
     display: none;
 }
-
 
 [data-simplebar-direction="horizontal"] .simplebar-scroll-content,
 .simplebar.horizontal .simplebar-scroll-content {
@@ -32,25 +31,34 @@
 .simplebar-track {
     z-index: 99;
     position: absolute;
-    background: #b6ccdd;
-    border: 1px solid #0069a0;
-    border-radius: 25px;/*!!!*/
-    margin: 15px 5px;
+    background: #fefefe;
+    -webkit-box-shadow: inset 0px 0px 8px 2px rgba(161,161,161,0.75);
+    -moz-box-shadow: inset 0px 0px 8px 2px rgba(161,161,161,0.75);
+    box-shadow: inset 0px 0px 8px 2px rgba(161,161,161,0.75);
+    /*border: 1px solid #0069a0;*/
+    /*border-radius: 25px;*/
+    margin: 10px 10px;
     top: 0;
     right: 0;
     bottom: 0;
-    width: 11px;
+    width: 18px;
+    text-align: center;
 }
 
 .simplebar-track .simplebar-scrollbar {
     position: absolute;
-    right: 1px;
-    border: 1px solid #00457f;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    border-radius: 7px;
+    right: 0;
+    /*border: 1px solid #00457f;*/
+    /*-webkit-border-radius: 7px;*/
+    /*-moz-border-radius: 7px;*/
+    /*border-radius: 7px;*/
+    -webkit-box-shadow: inset 0px 0px 10px 2px rgba(161,161,161,1);
+    -moz-box-shadow: inset 0px 0px 10px 2px rgba(161,161,161,1);
+    box-shadow: inset 0px 0px 10px 2px rgba(161,161,161,1);
+    background: #fefefe;
     min-height: 10px;
-    width: 7px;
+    height: 40px;
+    width: 100%;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     opacity: 0;
     -webkit-transition: opacity 0.2s linear;
