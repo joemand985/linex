@@ -271,6 +271,14 @@ footer p {
     padding: 0;
 }
 
+@media (max-height: 400px) {
+
+    #main-content {
+        color: red;
+    }
+
+}
+
 @media (max-height: 768px) {
      /*CSS that should be displayed if width is equal to or less than 800px goes here */
 
@@ -281,92 +289,94 @@ footer p {
         -moz-transform-origin: 0 0;
     }
 
-    /*#container {*/
-        /*background: url("../images/body-model-small.png") center no-repeat;*/
-        /*height: 582px;*/
-    /*}*/
 
-    /*#linex-package {*/
-        /*width: 208px;*/
-        /*bottom: -12px;*/
-    /*}*/
 
-    /*#linex-brand {*/
-        /*width: 185px;*/
-        /*left: 225px;*/
-        /*bottom: 10px;*/
-    /*}*/
+/*    #container {
+        background: url("../images/body-model-small.png") center no-repeat;
+        height: 582px;
+*}
 
-    /*#linex-stamp {*/
-        /*width: 179px;*/
-        /*right: 20px;*/
-        /*bottom: 5px;*/
-    /*}*/
+    #linex-package {
+        width: 208px;
+        bottom: -12px;
+    }
 
-    /*#linex-note {*/
-        /*right: 208px;*/
-        /*bottom: 5px;*/
-    /*}*/
+    #linex-brand {
+        width: 185px;
+        left: 225px;
+        bottom: 10px;
+    }
 
-    /*#linex-note p {*/
-        /*font-size: 10px;*/
-    /*}*/
+    #linex-stamp {
+        width: 179px;
+        right: 20px;
+        bottom: 5px;
+    }
 
-    /*#linex-code{*/
-        /*right: -30px;*/
-        /*bottom: 40px;*/
-        /*font-size: 5pt;*/
-    /*}*/
+    #linex-note {
+        right: 208px;
+        bottom: 5px;
+    }
 
-    /*#linex-description {*/
-        /*right: 30px;*/
-        /*top: 20px;*/
-        /*width: 310px;*/
-        /*height: 480px;*/
-        /*font-size: 8pt;*/
-    /*}*/
+    #linex-note p {
+        font-size: 10px;
+    }
 
-    /*#linex-description-balance{*/
-        /*width: 300px;*/
-        /*margin: 0 0 0 -10px;*/
-    /*}*/
+    #linex-code{
+        right: -30px;
+        bottom: 40px;
+        font-size: 5pt;
+    }
 
-    /*#linex-description-body{*/
-        /*width: 270px;*/
-        /*margin: -10px -20px 0 0;*/
-    /*}*/
+    #linex-description {
+        right: 30px;
+        top: 20px;
+        width: 310px;
+        height: 480px;
+        font-size: 8pt;
+    }
 
-    /*#linex-description-package-msg{*/
-        /*width: 271px;*/
-        /*margin: -30px -20px 0 0;*/
-    /*}*/
+    #linex-description-balance{
+        width: 300px;
+        margin: 0 0 0 -10px;
+    }
 
-    /*#linex-description-under-paragraph{*/
-        /*margin: -25px 0 10px 0;*/
-    /*}*/
+    #linex-description-body{
+        width: 270px;
+        margin: -10px -20px 0 0;
+    }
 
-    /*#linex-description-manual{*/
-        /*width: 315px;*/
-        /*margin: 0 0 0 -15px;*/
-    /*}*/
+    #linex-description-package-msg{
+        width: 271px;
+        margin: -30px -20px 0 0;
+    }
 
-    /*#linex-description-bubbles{*/
-        /*width: 273px;*/
-        /*margin: 25px 0 10px 0;*/
-    /*}*/
+    #linex-description-under-paragraph{
+        margin: -25px 0 10px 0;
+    }
 
-    /*#linex-description-package{*/
-        /*width: 215px;*/
-        /*margin: 0 0 25px 15px;*/
-    /*}*/
+    #linex-description-manual{
+        width: 315px;
+        margin: 0 0 0 -15px;
+    }
 
-    /*footer {*/
-        /*font-size: 12px;*/
-    /*}*/
+    #linex-description-bubbles{
+        width: 273px;
+        margin: 25px 0 10px 0;
+    }
 
-    /*footer p {*/
-        /*width: 60%;*/
-    /*}*/
+    #linex-description-package{
+        width: 215px;
+        margin: 0 0 25px 15px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    footer p {
+        width: 60%;
+    }*/
 }
 
 /*NEW*/
@@ -511,4 +521,65 @@ h4 {
 
 .simplebar-content{
     padding-right: 14px !important;
+}
+
+
+
+@media (max-width: 600px) {
+    
+
+    #main-content {
+        color: white;
+        visibility: hidden;
+    }
+
+
+    #sandoz-logo {
+        visibility: hidden;
+    }
+
+    footer {
+        width: 100%;
+        display: block;
+        position: relative;
+        bottom: 0;
+        left: auto;
+        /*visibility: hidden;*/
+    }
+
+    #linex-note, #linex-code {
+        visibility: hidden;
+    }
+    
+
+    #wrapper {
+    /*background: url("../images/backgrounds/bgd-clouds.jpg") center no-repeat;*/
+    /*background-size: cover;*/
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    
+    border: 1px solid #00447F;
+    
+    box-shadow: 12px 0 18px -10px rgba(50, 50, 50, 0.2), -12px 0 18px -10px rgba(50, 50, 50, 0.2);
+    }
+
+    #linex-description {
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    width: 90%;
+    height: 725px;
+    border: 0px solid #00457f;
+    box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background: #C3E2F2;
+    /*background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(58, 170, 220, 1));*/
+    color: #00457f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
 }
