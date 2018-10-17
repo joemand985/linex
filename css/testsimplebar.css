@@ -14,7 +14,7 @@
     top: 0;
     bottom: 0;
     -ms-overflow-style: none; /* hide browser scrollbar on IE10+ */
-    padding: 5px 40px 5px 15px;
+    padding: 5px 15px 5px 10px; /* EDIT PADDING INSIDE SIMPLEBAR*/
 }
 
 /* hide browser scrollbar on Webkit (Safari & Chrome) */
