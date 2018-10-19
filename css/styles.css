@@ -383,6 +383,65 @@ footer p {
 }
 
 /*NEW*/
+.package-small {
+    width: 350px;
+    margin: 30px;
+}
+
+.kapsula {
+    width: 170px;
+    position: relative;
+    left: 67%;
+    top: -40px;
+}
+
+#pecat {
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 220%;
+}
+
+#linexi {
+    width: 100%;
+}
+
+#gradient-antibiotici {
+    width: 105%;
+    /*border: 1px solid black;*/
+    margin-left: -20px;
+   /* margin-right: -10px;*/
+    margin-top: -30px;
+}
+
+#dobro-je-znati {
+    position: absolute;
+    top: 356%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    /*font-size: 25px;*/
+}
+
+#linex-forte-packshot-kalendar{
+  /*  border: 1px solid black;*/
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#antibiotik-linex {
+   /* border: 1px solid red;*/
+    height: 320px;
+    position: absolute;
+}
+
+#od1kapsulednevno-small {
+    position: absolute;
+    right: 20px;
+    top: 1px;
+    height: 200px;
+}
+
 .highlights {
     text-align: center;
     padding: 3px;
@@ -411,6 +470,14 @@ footer p {
     color: white;
     font-size: 20px;
     font-weight: 600;
+}
+
+.yellow {
+    background-image: linear-gradient(to right, #07ACAD , #D2D605);
+}
+
+.yellow h2 {
+    color: white;
 }
 
 .orange {
@@ -442,10 +509,19 @@ footer p {
     /*border: 3px solid #E2007A;*/
     border-width: 1px;
     border-style: solid;
-    border-color: ;
+   
     text-align: center;
     border-color: #E2007A;
 }
+
+/*.no-bullet {
+    list-style-type: none;
+}
+
+.line-spacing {
+    line-height: 0;
+
+}*/
 
 .first-highlight {
     width: 80%;
@@ -476,6 +552,8 @@ h4 {
 
 #brand-large-simplebars {
     width: 300px;
+    display: block;
+    margin: 0 auto;
 }
 
 .linex-reference {
