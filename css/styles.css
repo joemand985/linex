@@ -5,16 +5,29 @@
     src: url('../fonts/gotham/Gotham-ExtraLight.otf') format('opentype');
 }
 
+html {
+    background: url("../images/backgrounds/Background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
 body, html {
     min-height: 100%;
     height: 100%;
 }
 
 body {
-    background: url("../images/backgrounds/Background.png") center no-repeat;
-    background-size: cover;
+  /*  background: url("../images/backgrounds/Background.png") center center no-repeat;
+    background-size: cover;*/
+    /*background-repeat: repeat-y;*/
+    height: 100%;
     margin: 0;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+   /* padding-bottom: 80px;*/
 }
 
 #wrapper {
@@ -34,6 +47,8 @@ body {
     /*background: url("../images/body-model-large.png") center no-repeat;*/
     background-size: cover;
     height: 860px;
+    padding-bottom: auto auto 100px auto;
+    /*margin-bottom: 10px;*/
 }
 
 #linex-package {
@@ -48,7 +63,9 @@ body {
     position: absolute;
     left: 40px;
     top: 10px;
-    width: 400px;
+    /*width: 400px;*/
+    width: 30%;
+    height: auto;
 }
 
 #linex-stamp {
@@ -260,6 +277,7 @@ body {
 
 footer {
     width: 100%;
+   /* height: 100px;*/
     height: auto;
     background: #083d73;
     padding: 10px 0;
@@ -268,12 +286,14 @@ footer {
     font-weight: 300;
     font-size: 15px;
     text-align: center;
+    /*margin-top: 10px;*/
 }
 
 footer p {
     width: 50%;
     margin: 0 auto;
     padding: 0;
+   /* font-size: 4vw;*/
 }
 
 @media (max-height: 400px) {
@@ -386,30 +406,43 @@ footer p {
 
 /*NEW*/
 .package-small {
-    width: 350px;
-    margin: 30px;
+    width: 70%;
+    height: auto;
+    margin-left: 30px;
+    margin-bottom: 0;
+    margin: 30px auto 0 30px;
 }
 
 .kapsula {
-    width: 170px;
+    width: 30%;
+    height: auto;
     position: relative;
     left: 67%;
-    top: -40px;
+    top: 0px;
+}
+
+.relative {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
 }
 
 #pecat {
-    width: 200px;
+    width: 32%;
     position: absolute;
-    left: 50%;
-    top: 220%;
+    left: 60%;
+    top: 65%;
 }
 
 #linexi {
     width: 100%;
+    height: auto;
 }
 
 #gradient-antibiotici {
     width: 105%;
+    height: auto;
     /*border: 1px solid black;*/
     margin-left: -20px;
    /* margin-right: -10px;*/
@@ -418,7 +451,7 @@ footer p {
 
 #dobro-je-znati {
     position: absolute;
-    top: 356%;
+    top: -5%;
     color: white;
     width: 100%;
     text-align: center;
@@ -429,20 +462,24 @@ footer p {
   /*  border: 1px solid black;*/
     margin-left: -10px;
     margin-right: -10px;
+    width: 70%;
+    height: auto;
 }
 
 #antibiotik-linex {
    /* border: 1px solid red;*/
-    height: 320px;
+    width: 35%;
+    height: auto;
     position: absolute;
 }
 
 #od1kapsulednevno-small {
     /*border: 1px solid black;*/
-    position: relative;
-    left: 37%;
-    bottom: 140px;
+    position: absolute;
+    right: 1px;
+    top: 25%;
     height: 200px;
+    width: auto;
 }
 
 .highlights {
@@ -508,13 +545,13 @@ footer p {
 }
 
 .question-tag {
-    width: 80px;
+    height: 110%;
 /*    background: -webkit-linear-gradient(#E1007A, #6C3689);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;*/
     position: absolute;
-    top: 139px;
-    left: 15px;
+    top: -4px;
+    left: -10px;
 }
 
 .framed {
@@ -564,11 +601,13 @@ h4 {
 
 #brand-large-simplebars {
     width: 300px;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
 
 .linex-reference {
+    margin-top: 10%;
     font-size: 10px;
     font-weight: 900;
 }
@@ -685,15 +724,33 @@ position: absolute;
         visibility: hidden;
     }
 
+    #linex-brand {
+        width: 60%;
+        height: auto;
+        margin: auto;
+    }
+/*
     footer {
         width: 100%;
-        display: block;
         position: relative;
         bottom: 0;
-        left: auto;
+        left: 0;
+        right: 0;
         z-index: 100;
-        /*visibility: hidden;*/
-    }
+        float: left;
+    }*/
+
+    footer {
+    padding: 20px;
+    background: #253e79;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #f4f3f0;
+    font-size: 34px;
+    font-family: helvth;
+    line-height: 40px;
+}
 
     #linex-note, #linex-code {
         visibility: hidden;
