@@ -668,19 +668,25 @@ h4 {
 }
 
 #main-first {
-    font-size: 99px;
+    /*font-size: 99px;*/
+    font-size: 620%;
+  /*  width: 90%;
+    padding: 1px;
+    margin: 10px;*/
     position: absolute;
     top: -4%;
 }
 
 #main-second {
-    font-size: 72px;
+    /*font-size: 72px;*/
+    font-size: 450%;
     position: absolute;
     top: 10%;
 }
 
 #main-third {
-    font-size: 66px;
+    /*font-size: 66px;*/
+    font-size: 400%;
     position: absolute;
     top: 78%;
     /*border: 1px solid black;*/
