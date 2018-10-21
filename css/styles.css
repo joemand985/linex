@@ -62,6 +62,8 @@ body {
     right: 50px;
     bottom: 10px;
     text-align: left;
+    /*border: 1px solid black;*/
+    font-size: 9px;
 }
 
 #linex-note p, #linex-note ul {
@@ -436,9 +438,10 @@ footer p {
 }
 
 #od1kapsulednevno-small {
-    position: absolute;
-    right: 20px;
-    top: 1px;
+    /*border: 1px solid black;*/
+    position: relative;
+    left: 37%;
+    bottom: 140px;
     height: 200px;
 }
 
@@ -474,10 +477,19 @@ footer p {
 
 .yellow {
     background-image: linear-gradient(to right, #07ACAD , #D2D605);
+    height: 200px;
 }
 
-.yellow h2 {
+.yellow h1 {
     color: white;
+  /*  border: 1px solid red;*/
+    margin: 0px;
+}
+
+.yellow h4 {
+    font-size: 18px;
+  /*  border: 1px solid black;*/
+    font-weight: 900;
 }
 
 .orange {
@@ -582,27 +594,27 @@ h4 {
     background: url("../images/LINEX Forte packshot.png"); 
     background-size: 440px;
     background-repeat: no-repeat;
-    background-position: -35% 70%;
+    background-position: -30% 45%;
     font-size: ;
 }
 
 #main-first {
-    font-size: 90px;
+    font-size: 99px;
     position: absolute;
     top: -4%;
 }
 
 #main-second {
-    font-size: 66px;
+    font-size: 72px;
     position: absolute;
     top: 10%;
 }
 
 #main-third {
-    font-size: 60px;
+    font-size: 66px;
     position: absolute;
-    top: 80%;
-    
+    top: 78%;
+    /*border: 1px solid black;*/
 }
 
 /*#linex-package-large {
@@ -622,7 +634,7 @@ h4 {
 #od1kapsulednevno {
     position: absolute;
     right: 0;
-    top: 40%;
+    top: 37%;
     width: 180px;
 /*    border: 1px solid black;*/
    /* right: 20px;
@@ -646,8 +658,8 @@ h4 {
 
 #pill {
 position: absolute;
-    right: 10%;
-    top: 75%;
+    right: 5%;
+    top: 72%;
   /*  margin: 20px;*/
     width: 150px;
 }
