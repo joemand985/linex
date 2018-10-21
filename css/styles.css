@@ -430,6 +430,7 @@ footer p {
 
 #pecat {
     width: 32%;
+    height: auto;
     position: absolute;
     left: 60%;
     top: 65%;
@@ -441,21 +442,47 @@ footer p {
 }
 
 #gradient-antibiotici {
-    width: 105%;
+    position: relative;
+    width: 100%;
     height: auto;
+
     /*border: 1px solid black;*/
-    margin-left: -20px;
+  /*  margin-left: -20px;*/
    /* margin-right: -10px;*/
-    margin-top: -30px;
+   /* margin-top: -30px;*/
+}
+.gtn {
+   /* position: relative;
+    border: 3px solid green;
+    height: 100px;
+    background-image: url(src="../images/gradient-antibiotici.png") ;*/
+  /*  height: 100px;
+    background: url(src="../images/gradient-antibiotici.png") center center no-repeat;*/
+/*    width: 100%;*/
+   
+
 }
 
 #dobro-je-znati {
+ 
+
     position: absolute;
-    top: -5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
+ /*   display: block;*/
     width: 100%;
+    height: auto;
+    padding: auto;
+    margin: auto;
     text-align: center;
-    /*font-size: 25px;*/
+   /* border: 1px solid red;*/
+    /*font-size: 5.9vw;*/
+  /*  display: block;*/
+  /*  margin: auto;*/
+    /*width: 100%;
+*/    /*font-size: 25px;*/
 }
 
 #linex-forte-packshot-kalendar{
@@ -499,10 +526,13 @@ footer p {
 }
 
 .blue {
+    border: 2px solid red;
     background-image: linear-gradient(to right, #3FBBE7 , #2E4694);
     color: white;
     font-size: 20px;
-    margin: 5px auto 15px auto;
+    padding: 15px auto 15px auto;
+    line-height: 1em;
+
 }
 
 .purple {
@@ -514,7 +544,7 @@ footer p {
 
 .yellow {
     background-image: linear-gradient(to right, #07ACAD , #D2D605);
-    height: 200px;
+    height: auto;
 }
 
 .yellow h1 {
@@ -600,7 +630,7 @@ h4 {
 }
 
 #brand-large-simplebars {
-    width: 300px;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -721,11 +751,11 @@ position: absolute;
 
 
     #sandoz-logo {
-        visibility: hidden;
+        width: 30%;
     }
 
     #linex-brand {
-        width: 60%;
+        width: 40%;
         height: auto;
         margin: auto;
     }
