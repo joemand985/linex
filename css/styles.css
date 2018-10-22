@@ -5,6 +5,12 @@
     src: url('../fonts/gotham/Gotham-ExtraLight.otf') format('opentype');
 }
 
+/* Heavily snipped */
+@font-face {
+    font-family: "MuseoSans-300";
+    src: url('../fonts/MuseoSans-300.otf')/* Multiple url() and format() follow */;
+}
+
 html {
     background: url("../images/backgrounds/Background.png") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -26,9 +32,11 @@ body {
     /*background-repeat: repeat-y;*/
     height: 100%;
     margin: 0;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  /*  font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
+  font-family: MuseoSans-300, sans-serif;
    /* padding-bottom: 80px;*/
 }
+
 
 #wrapper {
     /*background: url("../images/backgrounds/bgd-clouds.jpg") center no-repeat;*/
@@ -47,7 +55,7 @@ body {
     /*background: url("../images/body-model-large.png") center no-repeat;*/
     background-size: cover;
     height: 860px;
-    padding-bottom: auto auto 100px auto;
+    /*padding-bottom: auto auto 100px auto;*/
     /*margin-bottom: 10px;*/
 }
 
@@ -106,174 +114,22 @@ body {
     bottom: 10px;
     width: 570px;
     height: 725px;
-    border: 0px solid #00457f;
+    /*border: 0px solid #00457f;*/
     box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.3);
     border-radius: 5px;
     background: #C3E2F2;
     /*background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(58, 170, 220, 1));*/
     color: #00457f;
-    font-family: "Open Sans", sans-serif;
-    font-size: 10pt;
+    font-family: MuseoSans-300, sans-serif;
+  /*  font-size: 10pt;*/
+  color: black;
 }
 
 #linex-description p {
     text-align: justify;
 }
 
-#linex-description-balance{
-    margin: 0 0 0 -10px;
-}
 
-#linex-description-body-wrapper{
-    position: relative;
-    width: 100%;
-}
-
-#linex-description-body{
-    margin: -15px -20px 0 0;
-}
-
-#linex-description-body-wrapper .b1{
-    width: 120px;
-    text-align: left;
-    position: absolute;
-    top: 35px;
-    left: 25px;
-    font-size: 8pt;
-}
-
-#linex-description-body-wrapper .b1 p{
-    margin-top: 5px;
-    text-align: left;
-}
-
-#linex-description-body-wrapper .b1 h3{
-    margin-bottom: 5px;
-}
-
-#linex-description-body-wrapper .b2{
-    width: 100px;
-    text-align: left;
-    position: absolute;
-    bottom: 2px;
-    left: 20px;
-    font-size: 8pt;
-}
-
-#linex-description-body-wrapper .b2 p{
-    margin-top: 5px;
-    text-align: left;
-}
-
-#linex-description-body-wrapper .b2 h3{
-    margin-bottom: 5px;
-}
-
-#linex-description-body-wrapper .b3{
-    width: 95px;
-    text-align: justify;
-    position: absolute;
-    top: 90px;
-    right: 20px;
-    font-size: 8pt;
-}
-
-#linex-description-body-wrapper .b3 p{
-    margin-top: 5px;
-    text-align: right;
-}
-
-#linex-description-body-wrapper .b3 h3{
-    text-align: right;
-    margin-bottom: 5px;
-}
-
-#linex-desc-wrapper-package-msg{
-    position: relative;
-    width: 100%;
-    height: 320px;
-    margin-top: -20px;
-}
-
-#linex-description-ul-absolute{
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-}
-
-#linex-description-package-msg{
-    position: absolute;
-    top: 77px;
-    left: 0;
-    width: 83%;
-}
-
-#linex-description-under-paragraph{
-    position: absolute;
-    top: 170px;
-    right: 0;
-    z-index: 1;
-}
-
-#linex-desc-wrapper-manual{
-    position: relative;
-    width: 100%;
-    margin-bottom: 175px;
-}
-
-#linex-desc-wrapper-manual .p1 {
-    width: 90px;
-    position: absolute;
-    top: 135px;
-    left: 25px;
-    text-align: left;
-    font-size: 9pt;
-}
-
-#linex-desc-wrapper-manual .p2 {
-    width: 90px;
-    position: absolute;
-    top: 135px;
-    left: 125px;
-    text-align: left;
-    font-size: 9pt;
-}
-
-#linex-desc-wrapper-manual .p3 {
-     width: 90px;
-     position: absolute;
-     top: 135px;
-     left: 220px;
-     text-align: left;
-     font-size: 9pt;
- }
-
-#linex-desc-wrapper-manual .p4 {
-    width: 90px;
-    position: absolute;
-    top: 135px;
-    left: 315px;
-    text-align: left;
-    font-size: 9pt;
-}
-
-#linex-desc-wrapper-manual .p1 ul,
-#linex-desc-wrapper-manual .p2 ul,
-#linex-desc-wrapper-manual .p3 ul,
-#linex-desc-wrapper-manual .p4 ul{
-    margin-top: 5px;
-    padding-left: 15px;
-}
-
-#linex-description-bubbles{
-    margin: 25px 0 10px 0;
-}
-
-#linex-description-package{
-    width: 310px;
-    margin: 0 0 25px 30px;
-}
 
 footer {
     width: 100%;
@@ -305,104 +161,18 @@ footer p {
 }
 
 @media (max-height: 768px) {
-     /* EDIT(768) CSS that should be displayed if width is equal to or less than 800px goes here */
-
-    #wrapper {
+     /* EDIT(768) CSS that should be displayed if width is equal to or less than 800px goes here 
+*/
+#wrapper {
         /*width: 800px;*/
         zoom: 0.70;
         -moz-transform: scale(0.70);
         -moz-transform-origin: 0 0;
     }
-
-
-
-/*    #container {
-        background: url("../images/body-model-small.png") center no-repeat;
-        height: 582px;
-*}
-
-    #linex-package {
-        width: 208px;
-        bottom: -12px;
-    }
-
-    #linex-brand {
-        width: 185px;
-        left: 225px;
-        bottom: 10px;
-    }
-
-    #linex-stamp {
-        width: 179px;
-        right: 20px;
-        bottom: 5px;
-    }
-
-    #linex-note {
-        right: 208px;
-        bottom: 5px;
-    }
-
-    #linex-note p {
-        font-size: 10px;
-    }
-
-    #linex-code{
-        right: -30px;
-        bottom: 40px;
-        font-size: 5pt;
-    }
-
-    #linex-description {
-        right: 30px;
-        top: 20px;
-        width: 310px;
-        height: 480px;
-        font-size: 8pt;
-    }
-
-    #linex-description-balance{
-        width: 300px;
-        margin: 0 0 0 -10px;
-    }
-
-    #linex-description-body{
-        width: 270px;
-        margin: -10px -20px 0 0;
-    }
-
-    #linex-description-package-msg{
-        width: 271px;
-        margin: -30px -20px 0 0;
-    }
-
-    #linex-description-under-paragraph{
-        margin: -25px 0 10px 0;
-    }
-
-    #linex-description-manual{
-        width: 315px;
-        margin: 0 0 0 -15px;
-    }
-
-    #linex-description-bubbles{
-        width: 273px;
-        margin: 25px 0 10px 0;
-    }
-
-    #linex-description-package{
-        width: 215px;
-        margin: 0 0 25px 15px;
-    }
-
-    footer {
-        font-size: 12px;
-    }
-
-    footer p {
-        width: 60%;
-    }*/
 }
+
+
+
 
 /*NEW*/
 .package-small {
@@ -425,7 +195,7 @@ footer p {
     position: relative;
     top: 0;
     left: 0;
-    border: 1px solid black;
+   /* border: 1px solid black;*/
 }
 
 #pecat {
@@ -445,11 +215,6 @@ footer p {
     position: relative;
     width: 100%;
     height: auto;
-
-    /*border: 1px solid black;*/
-  /*  margin-left: -20px;*/
-   /* margin-right: -10px;*/
-   /* margin-top: -30px;*/
 }
 .gtn {
    /* position: relative;
@@ -526,13 +291,18 @@ footer p {
 }
 
 .blue {
-    border: 2px solid red;
+  /*  border: 2px solid red;*/
     background-image: linear-gradient(to right, #3FBBE7 , #2E4694);
     color: white;
     font-size: 20px;
-    padding: 15px auto 15px auto;
-    line-height: 1em;
+    margin: 15px auto;
+    line-height: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.mikrobiotu {
+    font-size: 140%;
 }
 
 .purple {
@@ -551,6 +321,10 @@ footer p {
     color: white;
   /*  border: 1px solid red;*/
     margin: 0px;
+}
+
+.yellow h2 {
+    color: white;
 }
 
 .yellow h4 {
@@ -593,14 +367,16 @@ footer p {
     border-color: #E2007A;
 }
 
-/*.no-bullet {
+.no-bullet {
     list-style-type: none;
 }
+
+
 
 .line-spacing {
     line-height: 0;
 
-}*/
+}
 
 .first-highlight {
     width: 80%;
@@ -615,22 +391,68 @@ footer p {
 .third-highlight {
     width: 95%;
     border-width: 1px 3px 3px 3px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .linex-list {
-    line-height: 1em;
+    /*line-height: 0;*/
+    margin-left: 1.5em;
+    margin-bottom: -12px;
 }
 
+
+
+
+
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: white; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.purple-bullet ul li::before {
+    color: #E2007A;
+}
+
+.green-bullet ul li {
+    margin-bottom: -15px;
+}
+.green-bullet ul li::before {
+    color: #07ACAD;
+}
+
+.yellow-bullet ul li::before {
+    color: #D2D605;
+}
+
+.light-green-bullet ul li::before {
+    color: #A7C63B;
+}
+
+#linex-note ul li::before {
+    color: #083d73;
+}
+
+
+
+/*
 h4 {
     font-weight: 100;
-}
+}*/
 
-.bold {
-    font-weight: 900;
-}
+
 
 #brand-large-simplebars {
-    width: 100%;
+    width: 50%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -640,6 +462,7 @@ h4 {
     margin-top: 10%;
     font-size: 10px;
     font-weight: 900;
+   /* color: black;*/
 }
 
 /*right side*/
@@ -664,17 +487,17 @@ h4 {
     background-size: 440px;
     background-repeat: no-repeat;
     background-position: -30% 45%;
-    font-size: ;
+   
 }
 
 #main-first {
     /*font-size: 99px;*/
-    font-size: 620%;
+    font-size: 570%;
   /*  width: 90%;
     padding: 1px;
     margin: 10px;*/
     position: absolute;
-    top: -4%;
+    top: -2%;
 }
 
 #main-second {
@@ -744,6 +567,14 @@ position: absolute;
     padding-right: 14px !important;
 }
 
+/*.bold {
+    font-weight: 900;
+}*/
+
+
+.bold {
+     font-weight: 900;
+}
 
 
 @media (max-width: 600px) {
