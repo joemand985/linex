@@ -11,6 +11,12 @@
     src: url('../fonts/MuseoSans-300.otf')/* Multiple url() and format() follow */;
 }
 
+@font-face {
+    font-family: "MuseoSans-1";
+    src: url('../fonts/MuseoSans_1.otf')/* Multiple url() and format() follow */;
+}
+
+
 html {
     background: url("../images/backgrounds/Background.png") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -123,7 +129,7 @@ body {
     font-family: MuseoSans-300, sans-serif;
   /*  font-size: 10pt;*/
   color: black;
-  font-size: 20px;
+  /*font-size: 16px;*/
 }
 
 #linex-description p {
@@ -257,13 +263,16 @@ footer p {
     margin-right: -10px;
     width: 70%;
     height: auto;
+  /*  border: 1px solid blue;*/
 }
 
 #antibiotik-linex {
    /* border: 1px solid red;*/
-    width: 35%;
+    width: 42%;
     height: auto;
     position: absolute;
+    top: -22%;
+  /*  border: 1px solid black;*/
 }
 
 #od1kapsulednevno-small {
@@ -300,6 +309,10 @@ footer p {
     line-height: 1.5em;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.reverse {
+    background-image: linear-gradient(to right, #2E4694, #3FBBE7);
 }
 
 .mikrobiotu {
@@ -377,6 +390,14 @@ footer p {
 .line-spacing {
     line-height: 0;
 
+}
+
+.bottom-space li {
+    margin-bottom: 1em;
+}
+
+.blue-color {
+    color: #2E4694;
 }
 
 .first-highlight {
@@ -574,6 +595,7 @@ position: absolute;
 
 
 .bold {
+     font-family: MuseoSans_1;
      font-weight: 900;
 }
 
