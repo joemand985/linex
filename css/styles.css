@@ -5,15 +5,15 @@
     src: url('../fonts/gotham/Gotham-ExtraLight.otf') format('opentype');
 }
 
-/* Heavily snipped */
+
 @font-face {
     font-family: "MuseoSans-300";
-    src: url('../fonts/MuseoSans-300.otf')/* Multiple url() and format() follow */;
+    src: url('../fonts/MuseoSans-300.otf');
 }
 
 @font-face {
     font-family: "MuseoSans-1";
-    src: url('../fonts/MuseoSans_1.otf')/* Multiple url() and format() follow */;
+    src: url('../fonts/MuseoSans_1.otf');
 }
 
 
@@ -24,7 +24,6 @@ html {
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
-    /*overflow: hidden;*/
 }
 
 body, html {
@@ -61,6 +60,7 @@ body {
     /*background: url("../images/body-model-large.png") center no-repeat;*/
     background-size: cover;
     height: 860px;
+    /*width: auto;*/
     /*padding-bottom: auto auto 100px auto;*/
     /*margin-bottom: 10px;*/
 }
@@ -159,13 +159,13 @@ footer p {
    /* font-size: 4vw;*/
 }
 
-@media (max-height: 400px) {
+/*@media (max-height: 400px) {
 
     #main-content {
         color: red;
     }
 
-}
+}*/
 
 @media (max-height: 768px) {
      /* EDIT(768) CSS that should be displayed if width is equal to or less than 800px goes here 
@@ -357,13 +357,17 @@ footer p {
 
 .question-highlight {
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
     margin: 5px auto 15px 35px;
-    padding-left: 40px;
+    padding-left: 10%;
 }
 
 .question-tag {
     height: 110%;
+    /*height: 120px;*/
+    width: auto;
+ /*   width: 13%;
+    height: auto;*/
 /*    background: -webkit-linear-gradient(#E1007A, #6C3689);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;*/
@@ -464,15 +468,6 @@ ul li::before {
     color: #083d73;
 }
 
-
-
-/*
-h4 {
-    font-weight: 100;
-}*/
-
-
-
 #brand-large-simplebars {
     width: 50%;
     height: auto;
@@ -484,7 +479,6 @@ h4 {
     margin-top: 10%;
     font-size: 10px;
     font-weight: 900;
-   /* color: black;*/
 }
 
 /*right side*/
@@ -501,7 +495,6 @@ h4 {
     bottom: 10px;
     width: 550px;
     height: 725px;
-    /*border: 1px solid #00457f;*/
     text-align: center;
     color: #00467D;
 
@@ -537,43 +530,11 @@ h4 {
     /*border: 1px solid black;*/
 }
 
-/*#linex-package-large {
-    position: relative;
-    left: -70px;
-    top: 0;
-    margin: 20px;
-    width: 450px;
-}*/
-/*.crop {
-    width: 300px;
-
-    overflow: hidden;
-}*/
-
-
 #od1kapsulednevno {
     position: absolute;
     right: 0;
     top: 37%;
     width: 180px;
-/*    border: 1px solid black;*/
-   /* right: 20px;
-    top: 38%;
-    width: 400px;
-    border: 1px solid black;*/
-    /*clip: rect(500px,500px,500px,500px);
-    right: 10%;
-    top: 65%;
-    margin: 20px;
-    width: 500px;
-    margin-right: -500px;
-
-    margin: -100px -100 0 0;
-    border: 1px solid black;
-    object-fit: cover;
-    
-   margin-right: -10%;
-    padding-right: -10%;*/
 }
 
 #pill {
@@ -589,26 +550,111 @@ position: absolute;
     padding-right: 14px !important;
 }
 
-/*.bold {
-    font-weight: 900;
-}*/
-
-
 .bold {
      font-family: MuseoSans_1;
+     font-size: 18px;
      font-weight: 900;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
 
-@media (max-width: 600px) {
+#mnooogo {
+    visibility: hidden;
+}
+
+
+@media (max-width: 768px) {
 
     
+ /*   #main-content {
+        /*color: white;*/
+        /*visibility: hidden;*
+        display: inline-block;
+        width: 90%;
+        height: 20%;
+        margin: 10px auto auto auto;
+        position: relative;
+        left: 0;
+        top: 0;
+        background: none;
+        border: 1px solid red;
+        text-align: center;
 
-    #main-content {
-        color: white;
+
+        width: 100%;
+        height: 100%;*
+    }
+
+    #main-first {
+        font-size: 50px;
+        font-size: 300%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid black;
+        margin: auto;
+    }
+
+    #main-second {
+            font-size: 300%;
+        position: absolute;
+        top: 10%;
+        left: 0;
         visibility: hidden;
     }
 
+    #main-third{
+             font-size: 300%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        visibility: hidden;
+    }*/
+
+    #main-content {
+        visibility: hidden;
+    }
+#od1kapsulednevno {
+    visibility: hidden;
+}
+
+#pill {
+    visibility: hidden;
+}
+/*, #od1kapsulednevno, #pill */ 
+
+
+ /*   #wraper {
+        width: 100%;
+    }*/
+
+    #mnooogo {
+      /*  border: 1px solid black;*/
+        color: #00467D;
+       /* display: inline-block;*/
+       float: left;
+       width: 100%;
+       text-align: center;
+       padding: 20px;
+       font-size: 34px;
+       position: static;
+       margin-top: 80px;
+        visibility: visible;
+    }
+
+    #mnogo-first {
+        font-size: 50px;
+    }
+
+    #mnogo-second {
+        font-size: 34px;
+    }
+
+    #mnogo-third {
+        font-size: 30px;
+    }
 
     #sandoz-logo {
         width: 30%;
@@ -619,33 +665,49 @@ position: absolute;
         height: auto;
         margin: auto;
     }
-/*
-    footer {
-        width: 100%;
-        position: relative;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: 100;
-        float: left;
-    }*/
+
+    .question-highlight {
+    font-size: 2vw;
+    padding-left: 10%;
+}
+
+.question-tag {
+    position: absolute;
+    top: -4px;
+    left: 10px;
+   /* left: 3vw;*/
+   /* height: 110%;*/
+    /*height: 120px;*/
+  /*  width: auto;*/
+}
+
 
     footer {
     padding: 20px;
     background: #253e79;
     float: left;
     width: 100%;
-    text-align: center;
+ /*   text-align: justify;*/
     color: #f4f3f0;
     font-size: 34px;
     font-family: helvth;
-    line-height: 40px;
+ /*   line-height: 40px;*/
 }
 
+/*footer p {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 4vw;
+}*/
+
     #linex-note, #linex-code {
-        visibility: hidden;
+       /* visibility: hidden;*/
     }
     
+    #container {
+        height: 1000px;
+    }
 
     #wrapper {
     /*background: url("../images/backgrounds/bgd-clouds.jpg") center no-repeat;*/
@@ -653,8 +715,9 @@ position: absolute;
     width: 100%;
     height: auto;
     margin: 0 auto;
+    border: none;
     
-    border: 1px solid #00447F;
+   /* border: 1px solid #00447F;*/
     
     box-shadow: 12px 0 18px -10px rgba(50, 50, 50, 0.2), -12px 0 18px -10px rgba(50, 50, 50, 0.2);
     }
@@ -663,16 +726,18 @@ position: absolute;
    /* position: absolute;*/
    /* left: 30px;*/
    /* bottom: 10px;*/
-    margin: 0;
+    margin: 0px;
+   /* margin-top: 0px;*/
+    margin-bottom: 120px;
     padding: 0;
     width: 90%;
-    height: 725px;
+    height: 600px; /*!!!*/
     border: 3px solid #00457f;
     box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.3);
     border-radius: 5px;
     /*background: #C3E2F2;*/
     /*background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(58, 170, 220, 1));*/
-    color: #00457f;
+   /* color: #00457f;*/
     font-family: "Open Sans", sans-serif;
     /*font-size: 10pt;*/
     margin-left: auto;
