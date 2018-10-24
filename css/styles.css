@@ -114,6 +114,10 @@ body {
     font-size: 7pt;
 }
 
+#packshot-img {
+    visibility: hidden;
+}
+
 #linex-description {
     position: absolute;
     left: 30px;
@@ -172,6 +176,7 @@ footer p {
 */
 #wrapper {
         /*width: 800px;*/
+        /*zoom: 1;*/
         zoom: 0.70;
         -moz-transform: scale(0.70);
         -moz-transform-origin: 0 0;
@@ -303,6 +308,7 @@ footer p {
 .blue {
   /*  border: 2px solid red;*/
     background-image: linear-gradient(to right, #3FBBE7 , #2E4694);
+     /*-ms-linear-gradient(to right, #3FBBE7, #2E4694)*/
     color: white;
     font-size: 20px;
     margin: 15px auto;

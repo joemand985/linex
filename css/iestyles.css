@@ -1,0 +1,109 @@
+.blue {
+	filter: progid:DXImageTransform.Microsoft.gradient
+(startColorstr=#3FBBE7, endColorstr=#2E4694, GradientType=1)
+}
+
+.reverse {
+    filter: progid:DXImageTransform.Microsoft.gradient
+(startColorstr=#2E4694, endColorstr=#3FBBE7, GradientType=1)
+}
+
+.purple {
+	filter: progid:DXImageTransform.Microsoft.gradient
+(startColorstr=#E1007A, endColorstr=#6C3689, GradientType=1)
+}
+
+.yellow {
+	filter: progid:DXImageTransform.Microsoft.gradient
+(startColorstr=#07ACAD, endColorstr=#D2D605, GradientType=1)
+}
+
+.orange {
+	filter: progid:DXImageTransform.Microsoft.gradient
+(startColorstr=#FFE900, endColorstr=#E95F38, GradientType=1)
+}
+
+	@media \0screen\,screen\9 {
+    #dobro-je-znati {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+    }
+
+    .blue {
+    	/*background-color: #2E4694;*/
+	filter: progid:DXImageTransform.Microsoft.gradient
+(startColorstr=#FFE900, endColorstr=#E95F38, GradientType=1)
+
+border: 1px solid black;
+    }
+}
+
+
+
+
+
+#main-content {
+	/*border: 1px solid black;*/
+	background: none;
+}
+
+#main-first {
+    /*font-size: 99px;*/
+    font-size: 570%;
+  /*  width: 90%;
+    padding: 1px;
+    margin: 10px;*/
+    position: absolute;
+    top: -2%;
+    left: 0;
+}
+
+#main-second {
+    /*font-size: 72px;*/
+    font-size: 450%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+
+#main-third {
+    /*font-size: 66px;*/
+    font-size: 400%;
+    position: absolute;
+    top: 78%;
+    left: 0;
+    /*border: 1px solid black;*/
+}
+
+#packshot-img {
+	visibility: visible;
+	position: absolute;
+	top: 30%;
+	left: -10%;
+	width: 75%;
+	height: auto;
+}
+
+#od1kapsulednevno {
+    position: absolute;
+    right: 46px;
+    top: 37%;
+    width: 180px;
+}
+
+#pill {
+position: absolute;
+    right: 8%;
+    top: 72%;
+  /*  margin: 20px;*/
+    width: 150px;
+}
+
+#linex-code {
+	border: 1px solid black;
+	/*font-size: 20px;*/
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	position: absolute;
+	right: 0;
+}

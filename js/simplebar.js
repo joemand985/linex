@@ -1,5 +1,5 @@
 //EDIT: IS SCRIPT WORKING
-console.log("simplebar.js working")
+// console.log("simplebar.js working")
 
 
 ;(function (factory) {
