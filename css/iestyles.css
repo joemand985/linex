@@ -30,12 +30,16 @@
 	top: 0px;
     }
 
-    .blue {
+  .blue {
     	/*background-color: #2E4694;*/
 	filter: progid:DXImageTransform.Microsoft.gradient
 (startColorstr=#FFE900, endColorstr=#E95F38, GradientType=1)
 
 border: 1px solid black;
+    }
+
+    #linex-description {
+    	
     }
 }
 
@@ -107,3 +111,9 @@ position: absolute;
 	position: absolute;
 	right: 0;
 }
+
+
+
+/*#linex-description {
+	overflow: scroll;
+}*/
