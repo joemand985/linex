@@ -140,7 +140,8 @@ ul {
 }
 
 #packshot-img {
-	visibility: visible;
+	/*visibility: visible;*/
+	opacity: 1;
 	position: absolute;
 	top: 30%;
 	left: -10%;
