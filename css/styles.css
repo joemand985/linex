@@ -32,20 +32,13 @@ body, html {
 }
 
 body {
-  /*  background: url("../images/backgrounds/Background.png") center center no-repeat;
-    background-size: cover;*/
-    /*background-repeat: repeat-y;*/
     height: 100%;
     margin: 0;
-  /*  font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
-  font-family: MuseoSans-300, sans-serif;
-   /* padding-bottom: 80px;*/
+    font-family: MuseoSans-300, sans-serif;
 }
 
 
 #wrapper {
-    /*background: url("../images/backgrounds/bgd-clouds.jpg") center no-repeat;*/
-    /*background-size: cover;*/
     width: 1200px;
     height: auto;
     margin: 0 auto;
@@ -55,14 +48,9 @@ body {
 }
 
 #container {
-
     position: relative;
-    /*background: url("../images/body-model-large.png") center no-repeat;*/
     background-size: cover;
     height: 860px;
-    /*width: auto;*/
-    /*padding-bottom: auto auto 100px auto;*/
-    /*margin-bottom: 10px;*/
 }
 
 #linex-package {
@@ -70,14 +58,12 @@ body {
     position: absolute;
     left: 0;
     bottom: -18px;
-
 }
 
 #linex-brand {
     position: absolute;
     left: 40px;
     top: 10px;
-    /*width: 400px;*/
     width: 30%;
     height: auto;
 }
@@ -93,7 +79,6 @@ body {
     right: 50px;
     bottom: 10px;
     text-align: left;
-    /*border: 1px solid black;*/
     font-size: 9px;
 }
 
@@ -118,7 +103,6 @@ body {
 #packshot{
     visibility: hidden;
     width: 100px;       /*SOLVED RESPONSIVE PROBLEM - WAS JUST HIDDEN*/
-    /*opacity: 0;*/
 }
 
 #linex-description {
@@ -127,16 +111,12 @@ body {
     bottom: 10px;
     width: 570px;
     height: 725px;
-    /*border: 0px solid #00457f;*/
     box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.3);
     border-radius: 5px;
     background: #C3E2F2;
-    /*background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(58, 170, 220, 1));*/
     color: #00457f;
     font-family: MuseoSans-300, sans-serif;
-  /*  font-size: 10pt;*/
   color: black;
-  /*font-size: 16px;*/
 }
 
 #linex-description p {
@@ -147,7 +127,6 @@ body {
 
 footer {
     width: 100%;
-   /* height: 100px;*/
     height: auto;
     background: #083d73;
     padding: 10px 0;
@@ -156,40 +135,24 @@ footer {
     font-weight: 300;
     font-size: 15px;
     text-align: center;
-    /*margin-top: 10px;*/
 }
 
 footer p {
     width: 50%;
     margin: 0 auto;
     padding: 0;
-   /* font-size: 4vw;*/
 }
-
-/*@media (max-height: 400px) {
-
-    #main-content {
-        color: red;
-    }
-
-}*/
 
 @media (max-height: 768px) {
      /* EDIT(768) CSS that should be displayed if width is equal to or less than 800px goes here 
 */
 #wrapper {
-        /*width: 800px;*/
-        /*zoom: 1;*/  
         zoom: 0.70;
         -moz-transform: scale(0.70);
         -moz-transform-origin: 0 0;
     }
 }
 
-
-
-
-/*NEW*/
 .package-small {
     width: 70%;
     height: auto;
@@ -210,7 +173,6 @@ footer p {
     position: relative;
     top: 0;
     left: 0;
-   /* border: 1px solid black;*/
 }
 
 #pecat {
@@ -231,17 +193,6 @@ footer p {
     width: 100%;
     height: auto;
 }
-.gtn {
-   /* position: relative;
-    border: 3px solid green;
-    height: 100px;
-    background-image: url(src="../images/gradient-antibiotici.png") ;*/
-  /*  height: 100px;
-    background: url(src="../images/gradient-antibiotici.png") center center no-repeat;*/
-/*    width: 100%;*/
-   
-
-}
 
 #dobro-je-znati {
  
@@ -251,40 +202,28 @@ footer p {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
- /*   display: block;*/
     width: 100%;
     height: auto;
     padding: auto;
     margin: auto;
     text-align: center;
-   /* border: 1px solid red;*/
-    /*font-size: 5.9vw;*/
-  /*  display: block;*/
-  /*  margin: auto;*/
-    /*width: 100%;
-*/    /*font-size: 25px;*/
 }
 
 #linex-forte-packshot-kalendar{
-  /*  border: 1px solid black;*/
     margin-left: -10px;
     margin-right: -10px;
     width: 70%;
     height: auto;
-  /*  border: 1px solid blue;*/
 }
 
 #antibiotik-linex {
-   /* border: 1px solid red;*/
     width: 42%;
     height: auto;
     position: absolute;
     top: -22%;
-  /*  border: 1px solid black;*/
 }
 
 #od1kapsulednevno-small {
-    /*border: 1px solid black;*/
     position: absolute;
     right: 1px;
     top: 25%;
@@ -296,7 +235,6 @@ footer p {
     text-align: center;
     padding: 3px;
     margin: auto;
-   /* line-height: 0.1em;*/
 }
 
 .highlights > h4 {
@@ -309,9 +247,7 @@ footer p {
 }
 
 .blue {
-  /*  border: 2px solid red;*/
     background-image: linear-gradient(to right, #3FBBE7 , #2E4694);
-     /*-ms-linear-gradient(to right, #3FBBE7, #2E4694)*/
     color: white;
     font-size: 20px;
     margin: 15px auto;
@@ -342,7 +278,6 @@ footer p {
 
 .yellow h1 {
     color: white;
-  /*  border: 1px solid red;*/
     margin: 0px;
 }
 
@@ -352,7 +287,6 @@ footer p {
 
 .yellow h4 {
     font-size: 18px;
-  /*  border: 1px solid black;*/
     font-weight: 900;
 }
 
@@ -373,23 +307,15 @@ footer p {
 
 .question-tag {
     height: 110%;
-    /*height: 120px;*/
     width: auto;
- /*   width: 13%;
-    height: auto;*/
-/*    background: -webkit-linear-gradient(#E1007A, #6C3689);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
     position: absolute;
     top: -4px;
     left: -10px;
 }
 
 .framed {
-    /*border: 3px solid #E2007A;*/
     border-width: 1px;
     border-style: solid;
-   
     text-align: center;
     border-color: #E2007A;
 }
@@ -398,11 +324,8 @@ footer p {
     list-style-type: none;
 }
 
-
-
 .line-spacing {
     line-height: 0;
-
 }
 
 .bottom-space li {
@@ -410,7 +333,7 @@ footer p {
 }
 
 .blue-color {
-    color: #2E4694;
+    color: #00467D;
 }
 
 .first-highlight {
@@ -431,15 +354,9 @@ footer p {
 }
 
 .linex-list {
-    /*line-height: 0;*/
     margin-left: 1.5em;
     margin-bottom: -12px;
 }
-
-
-
-
-
 
 ul {
   list-style: none; /* Remove default bullets */
@@ -506,7 +423,6 @@ ul li::before {
     height: 725px;
     text-align: center;
     color: #00467D;
-
     background: url("../images/linex-forte-packshot.png"); 
     background-size: 440px;
     background-repeat: no-repeat;
@@ -515,28 +431,21 @@ ul li::before {
 }
 
 #main-first {
-    /*font-size: 99px;*/
     font-size: 570%;
-  /*  width: 90%;
-    padding: 1px;
-    margin: 10px;*/
     position: absolute;
     top: -2%;
 }
 
 #main-second {
-    /*font-size: 72px;*/
     font-size: 450%;
     position: absolute;
     top: 10%;
 }
 
 #main-third {
-    /*font-size: 66px;*/
     font-size: 400%;
     position: absolute;
     top: 78%;
-    /*border: 1px solid black;*/
 }
 
 #od1kapsulednevno {
@@ -550,10 +459,8 @@ ul li::before {
 position: absolute;
     right: 5%;
     top: 72%;
-  /*  margin: 20px;*/
     width: 150px;
 }
-/*END OF NEW*/
 
 .simplebar-content{
     padding-right: 14px !important;
@@ -573,76 +480,21 @@ position: absolute;
     visibility: hidden;
 }
 
-
 @media (max-width: 768px) {
-
-    
- /*   #main-content {
-        /*color: white;*/
-        /*visibility: hidden;*
-        display: inline-block;
-        width: 90%;
-        height: 20%;
-        margin: 10px auto auto auto;
-        position: relative;
-        left: 0;
-        top: 0;
-        background: none;
-        border: 1px solid red;
-        text-align: center;
-
-
-        width: 100%;
-        height: 100%;*
-    }
-
-    #main-first {
-        font-size: 50px;
-        font-size: 300%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        border: 1px solid black;
-        margin: auto;
-    }
-
-    #main-second {
-            font-size: 300%;
-        position: absolute;
-        top: 10%;
-        left: 0;
-        visibility: hidden;
-    }
-
-    #main-third{
-             font-size: 300%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        visibility: hidden;
-    }*/
 
     #main-content {
         visibility: hidden;
     }
-#od1kapsulednevno {
-    visibility: hidden;
-}
+    #od1kapsulednevno {
+        visibility: hidden;
+    }
 
-#pill {
-    visibility: hidden;
-}
-/*, #od1kapsulednevno, #pill */ 
-
-
- /*   #wraper {
-        width: 100%;
-    }*/
+    #pill {
+        visibility: hidden;
+    }
 
     #mnooogo {
-      /*  border: 1px solid black;*/
         color: #00467D;
-       /* display: inline-block;*/
        float: left;
        width: 100%;
        text-align: center;
@@ -650,7 +502,7 @@ position: absolute;
        font-size: 34px;
        position: static;
        margin-top: 80px;
-        visibility: visible;
+       visibility: visible;
     }
 
     #mnogo-first {
@@ -678,95 +530,51 @@ position: absolute;
     .question-highlight {
     font-size: 2vw;
     padding-left: 10%;
-}
+    }
 
-.question-tag {
-    position: absolute;
-    top: -4px;
-    left: 10px;
-   /* left: 3vw;*/
-   /* height: 110%;*/
-    /*height: 120px;*/
-  /*  width: auto;*/
-}
+    .question-tag {
+        position: absolute;
+        top: -4px;
+        left: 10px;
+    }
 
 
     footer {
-    padding: 20px;
-    background: #253e79;
-    float: left;
-    width: 100%;
-/*    height: 20%;*/
-    text-align: center;
-    color: #f4f3f0;
-    font-size: 34px;
-    font-family: helvth;
-
-    line-height: 40px;
-
-   
-/*    position: absolute;*/
-
-    /*new*/
-
-
-/*    position: fixed;
-    bottom: 0;
-    left: 0;*/
-
- /*   line-height: 40px;*/
-}
-
-/*footer p {
-    width: 80%;
-    margin: 0 auto;
-    padding: 10px;
-    font-size: 4vw;
-}*/
-
-    #linex-note, #linex-code {
-       /* visibility: hidden;*/
+        padding: 20px;
+        background: #253e79;
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #f4f3f0;
+        font-size: 34px;
+        font-family: helvth;
+        line-height: 40px;
     }
     
     #container {
         height: 1000px;
-       /* border-bottom: 5px solid green;*/
     }
 
     #wrapper {
-    /*background: url("../images/backgrounds/bgd-clouds.jpg") center no-repeat;*/
-    /*background-size: cover;*/
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    border: none;
-/*    border-bottom: 5px solid green;*/
-    
-   /* border: 1px solid #00447F;*/
-    
-    box-shadow: 12px 0 18px -10px rgba(50, 50, 50, 0.2), -12px 0 18px -10px rgba(50, 50, 50, 0.2);
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border: none;
+        box-shadow: 12px 0 18px -10px rgba(50, 50, 50, 0.2), -12px 0 18px -10px rgba(50, 50, 50, 0.2);
     }
 
     #linex-description {
-   /* position: absolute;*/
-   /* left: 30px;*/
-   /* bottom: 10px;*/
-    margin: 0px;
-   /* margin-top: 0px;*/
-    margin-bottom: 120px;
-    padding: 0;
-    width: 90%;
-    height: 600px; /*!!!*/
-    border: 3px solid #00457f;
-    box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.3);
-    border-radius: 5px;
-    /*background: #C3E2F2;*/
-    /*background: radial-gradient(rgba(255, 255, 255, 0.8), rgba(58, 170, 220, 1));*/
-   /* color: #00457f;*/
-    font-family: "Open Sans", sans-serif;
-    /*font-size: 10pt;*/
-    margin-left: auto;
-    margin-right: auto;
+        margin: 0px;
+        margin-bottom: 120px;
+        padding: 0;
+        width: 90%;
+        height: 600px; /*!!!*/
+        border: 3px solid #00457f;
+        box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.3);
+        border-radius: 5px;
+/*        font-family: "Open Sans", sans-serif;*/
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }

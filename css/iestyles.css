@@ -33,7 +33,13 @@
 	top: 0px;
     }
 
+
+
     .blue {
+    	background-image: url("../images/reverse.png");
+    }
+
+    .reverse {
     	background-image: url("../images/gradient2.png");
     }
 
@@ -112,8 +118,6 @@ ul {
 }
 /*end all earlier*/
 
-
-
 #main-content {
 	background: none;
 }
@@ -141,7 +145,6 @@ ul {
 
 #packshot {
 	visibility: visible;
-/*	opacity: 1;*/
 	position: absolute;
 	top: 30%;
 	left: -10%;

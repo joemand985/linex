@@ -1,7 +1,5 @@
 
 #linex-description {
-	/*overflow: none;*/
-	/*overflow: scroll;*/
 	padding-left: 20px;
 
 /* only for ie7-*/
@@ -10,7 +8,6 @@
 
     }
 }
-
 
 .question-tag {
 	height: 3%;
@@ -28,6 +25,10 @@
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
+}
+
+#wrapper {
+	zoom: 1;
 }
 
 
