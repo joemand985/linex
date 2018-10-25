@@ -114,8 +114,10 @@ body {
     font-size: 7pt;
 }
 
+
 #packshot{
     visibility: hidden;
+    width: 100px;       /*SOLVED RESPONSIVE PROBLEM - WAS JUST HIDDEN*/
     /*opacity: 0;*/
 }
 
@@ -177,7 +179,7 @@ footer p {
 */
 #wrapper {
         /*width: 800px;*/
-        /*zoom: 1;*/
+        /*zoom: 1;*/  
         zoom: 0.70;
         -moz-transform: scale(0.70);
         -moz-transform-origin: 0 0;
@@ -694,10 +696,24 @@ position: absolute;
     background: #253e79;
     float: left;
     width: 100%;
- /*   text-align: justify;*/
+/*    height: 20%;*/
+    text-align: center;
     color: #f4f3f0;
     font-size: 34px;
     font-family: helvth;
+
+    line-height: 40px;
+
+   
+/*    position: absolute;*/
+
+    /*new*/
+
+
+/*    position: fixed;
+    bottom: 0;
+    left: 0;*/
+
  /*   line-height: 40px;*/
 }
 
@@ -714,6 +730,7 @@ position: absolute;
     
     #container {
         height: 1000px;
+       /* border-bottom: 5px solid green;*/
     }
 
     #wrapper {
@@ -723,6 +740,7 @@ position: absolute;
     height: auto;
     margin: 0 auto;
     border: none;
+/*    border-bottom: 5px solid green;*/
     
    /* border: 1px solid #00447F;*/
     
