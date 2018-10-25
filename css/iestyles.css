@@ -139,9 +139,9 @@ ul {
     left: 0;
 }
 
-#packshot-img {
-	/*visibility: visible;*/
-	opacity: 1;
+#packshot {
+	visibility: visible;
+/*	opacity: 1;*/
 	position: absolute;
 	top: 30%;
 	left: -10%;

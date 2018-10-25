@@ -114,9 +114,9 @@ body {
     font-size: 7pt;
 }
 
-#packshot-img {
-    /*visibility: hidden;*/
-    opacity: 0;
+#packshot{
+    visibility: hidden;
+    /*opacity: 0;*/
 }
 
 #linex-description {
