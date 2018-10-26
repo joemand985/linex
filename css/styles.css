@@ -301,6 +301,7 @@ footer p {
     font-weight: 600;
     display: inline-block;
     margin-left: -10px;
+    padding: 5px 20px;
 }
 
 .question-highlight {
