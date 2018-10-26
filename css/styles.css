@@ -12,8 +12,13 @@
 }
 
 @font-face {
-    font-family: "MuseoSans-1";
+    font-family: "MuseoSans_1";
     src: url('../fonts/MuseoSans_1.otf');
+}
+
+@font-face {
+    font-family: "MuseoSans_0";
+    src: url('../fonts/MuseoSans_0.otf');
 }
 
 
@@ -314,10 +319,31 @@ footer p {
 }
 
 .framed {
-    border-width: 1px;
-    border-style: solid;
+    /*border-width: 1px;*/
+   /* border-style: solid;*/
+   border: none;
     text-align: center;
-    border-color: #E2007A;
+    /*border-color: #E2007A;*/ /*TRY GRADIENT*/
+    background-image: linear-gradient(to right, #E1007A, #6C3689);
+/*    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, rgb(14,173,173)), color-stop(0.67, rgb(0,255,255)));
+    background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(0,255,255) 67% );*/
+    padding: 2px;
+
+}
+
+.framed > div {
+    background-color: #C3E2F2;
+    margin-top: 0;
+}
+
+.framed > div > h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.framed > div > p {
+    padding: 0;
+    margin: 0;
 }
 
 .no-bullet {
@@ -338,8 +364,6 @@ footer p {
 
 .first-highlight {
     width: 80%;
-    box-sizing: border-box;
-    border-width: 3px 1px 3px 3px;
 }
 
 .second-highlight {
@@ -348,10 +372,9 @@ footer p {
 
 .third-highlight {
     width: 95%;
-    border-width: 1px 3px 3px 3px;
-    padding-top: 0;
-    padding-bottom: 0;
+    text-align: left;
 }
+
 
 .linex-list {
     margin-left: 1.5em;
@@ -467,8 +490,7 @@ position: absolute;
 }
 
 .bold {
-     font-family: MuseoSans_1;
-     font-size: 18px;
+     font-family: MuseoSans_0;
      font-weight: 900;
 }
 

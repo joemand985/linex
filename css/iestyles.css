@@ -56,6 +56,12 @@
     }
 
 
+    .framed {
+        border: 2px solid #E1007A;
+        text-align: center;
+    }
+
+
 
 #main-content {
 	background: none;
@@ -114,6 +120,13 @@ ul {
 	-ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	position: absolute;
 }
+
+
+    .framed {
+        border: 2px solid #E1007A;
+        text-align: center;
+    }
+
 
 }
 /*end all earlier*/
