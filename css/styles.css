@@ -393,6 +393,10 @@ footer p {
     margin-bottom: -12px;
 }
 
+.reference {
+    margin-left: 3em;
+}
+
 ul {
   list-style: none; /* Remove default bullets */
 }
