@@ -251,6 +251,17 @@ footer p {
     font-size: 16px;
 }
 
+#balans {
+    font-size: 35px;
+    padding: 0;
+    margin-bottom: 3px;
+}
+
+#antibiotici-probiotici {
+    padding: 0;
+    margin-top: 3px;
+}
+
 .blue {
     background-image: linear-gradient(to right, #3FBBE7 , #2E4694);
     color: white;
